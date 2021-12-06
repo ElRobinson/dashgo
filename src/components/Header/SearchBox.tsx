@@ -1,7 +1,7 @@
 import { Flex, Input, Icon } from '@chakra-ui/react'
 import { RiSearchLine } from 'react-icons/ri'
-import { useState } from 'react';
-import { useRef } from 'toasted-notes/node_modules/@types/react';
+import { useState, useRef } from 'react';
+//import { useRef } from 'toasted-notes/node_modules/@types/react';
 
 export function SearchBox(){
     //const [ search, setSearch ] = useState('');
