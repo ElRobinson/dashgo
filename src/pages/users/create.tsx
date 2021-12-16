@@ -1,7 +1,7 @@
 import { Box, Divider, Flex, Heading, SimpleGrid, VStack, HStack, Button } from '@chakra-ui/react'
 import { useForm, SubmitHandler } from 'react-hook-form'
 import * as yup from 'yup'
-import { yupResolver } from '@hookform/resolvers/yup/dist/yup';
+import { yupResolver } from '@hookform/resolvers/yup';
 import Link from 'next/link';
 
 import { Input } from '../../components/Form/Input';
